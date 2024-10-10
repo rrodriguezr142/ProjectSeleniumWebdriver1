@@ -3,16 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.magento.tests.RegisterTest">
+      <class name="com.magento.tests.OrderTest">
         <methods>
-          <include name="doRegisterNewAccountRequiredFields" invocation-numbers="0"/>
           <include name="teardown"/>
-          <include name="validacionclaveSegura" invocation-numbers="0"/>
+          <include name="EliminarProductosdelCarrito" invocation-numbers="0"/>
           <include name="setud"/>
-          <include name="validacionclaveiguales" invocation-numbers="0"/>
+          <include name="checkout" invocation-numbers="0"/>
           <include name="loadSettings"/>
         </methods>
-      </class> <!-- com.magento.tests.RegisterTest -->
+      </class> <!-- com.magento.tests.OrderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
