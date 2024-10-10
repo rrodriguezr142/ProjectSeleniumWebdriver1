@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T00:45:20 PET" name="Suite" finished-at="2024-10-10T00:46:48 PET" duration-ms="88433">
+    <groups>
+      <group name="Functional">
+        <method signature="RegisterTest.doRegisterNewAccountRequiredFields(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.RegisterTest@2a56b204]" name="doRegisterNewAccountRequiredFields" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@2a56b204]" name="doRegisterNewAccountNotmail" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionCorreo" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionclaveiguales" class="com.magento.tests.RegisterTest"/>
+      </group> <!-- Functional -->
+      <group name="Integration">
+        <method signature="RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@2a56b204]" name="doRegisterNewAccountNotmail" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionclaveiguales" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.validacionCorreoDuplicado(java.lang.reflect.Method)[pri:6, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionCorreoDuplicado" class="com.magento.tests.RegisterTest"/>
+      </group> <!-- Integration -->
+      <group name="Regression">
+        <method signature="RegisterTest.validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionCorreo" class="com.magento.tests.RegisterTest"/>
+        <method signature="RegisterTest.validacionclaveSegura(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.RegisterTest@2a56b204]" name="validacionclaveSegura" class="com.magento.tests.RegisterTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-10T00:45:20 PET" name="Test" finished-at="2024-10-10T00:46:48 PET" duration-ms="88433">
+      <class name="com.magento.tests.RegisterTest">
+        <test-method is-config="true" signature="loadSettings()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:20 PET" name="loadSettings" finished-at="2024-10-10T00:45:20 PET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSettings -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:20 PET" name="setud" finished-at="2024-10-10T00:45:24 PET" duration-ms="4095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="doRegisterNewAccountRequiredFields(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:24 PET" name="doRegisterNewAccountRequiredFields" finished-at="2024-10-10T00:45:32 PET" duration-ms="8121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.doRegisterNewAccountRequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewAccountRequiredFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:32 PET" name="teardown" finished-at="2024-10-10T00:45:32 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:32 PET" name="setud" finished-at="2024-10-10T00:45:43 PET" duration-ms="10503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:43 PET" name="doRegisterNewAccountNotmail" finished-at="2024-10-10T00:45:47 PET" duration-ms="4712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewAccountNotmail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:47 PET" name="teardown" finished-at="2024-10-10T00:45:47 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:47 PET" name="setud" finished-at="2024-10-10T00:45:52 PET" duration-ms="4316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:52 PET" name="validacionCorreo" finished-at="2024-10-10T00:45:57 PET" duration-ms="4918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.validacionCorreo(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validacionCorreo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:57 PET" name="teardown" finished-at="2024-10-10T00:45:57 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:45:57 PET" name="setud" finished-at="2024-10-10T00:46:09 PET" duration-ms="12125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="validacionclaveSegura(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:09 PET" name="validacionclaveSegura" finished-at="2024-10-10T00:46:13 PET" duration-ms="4100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.validacionclaveSegura(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validacionclaveSegura -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:13 PET" name="teardown" finished-at="2024-10-10T00:46:13 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:13 PET" name="setud" finished-at="2024-10-10T00:46:25 PET" duration-ms="12108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:25 PET" name="validacionclaveiguales" finished-at="2024-10-10T00:46:30 PET" duration-ms="5187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.validacionclaveiguales(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validacionclaveiguales -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:30 PET" name="teardown" finished-at="2024-10-10T00:46:30 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:30 PET" name="setud" finished-at="2024-10-10T00:46:41 PET" duration-ms="11179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setud -->
+        <test-method signature="validacionCorreoDuplicado(java.lang.reflect.Method)[pri:6, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:41 PET" name="validacionCorreoDuplicado" finished-at="2024-10-10T00:46:48 PET" duration-ms="6950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.RegisterTest.validacionCorreoDuplicado(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validacionCorreoDuplicado -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@2a56b204]" started-at="2024-10-10T00:46:48 PET" name="teardown" finished-at="2024-10-10T00:46:48 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.magento.tests.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
