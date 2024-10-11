@@ -1,376 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+<testng-results retried="4" ignored="4" total="13" passed="1" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-10T02:07:55 PET" name="Suite" finished-at="2024-10-10T02:14:25 PET" duration-ms="390419">
+  <suite started-at="2024-10-10T21:48:32 PET" name="Suite" finished-at="2024-10-10T21:50:04 PET" duration-ms="92326">
     <groups>
       <group name="Functional">
-        <method signature="RegisterTest.doRegisterNewAccountRequiredFields(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="doRegisterNewAccountRequiredFields" class="com.magento.tests.RegisterTest"/>
-        <method signature="LoginTest.inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionCredInCorrectos" class="com.magento.tests.LoginTest"/>
-        <method signature="RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="doRegisterNewAccountNotmail" class="com.magento.tests.RegisterTest"/>
-        <method signature="LoginTest.inicioSesionSinCredenciales(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionSinCredenciales" class="com.magento.tests.LoginTest"/>
-        <method signature="OrderTest.ModCantProductosdelCarrito(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.OrderTest@1ff3a778]" name="ModCantProductosdelCarrito" class="com.magento.tests.OrderTest"/>
-        <method signature="RegisterTest.validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionCorreo" class="com.magento.tests.RegisterTest"/>
-        <method signature="LoginTest.inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionResetearClave" class="com.magento.tests.LoginTest"/>
-        <method signature="RegisterTest.validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionclaveiguales" class="com.magento.tests.RegisterTest"/>
+        <method signature="LoginTest.inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionCredInCorrectos" class="com.magento.tests.LoginTest"/>
+        <method signature="LoginTest.inicioSesionSinCredenciales(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionSinCredenciales" class="com.magento.tests.LoginTest"/>
+        <method signature="LoginTest.inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionResetearClave" class="com.magento.tests.LoginTest"/>
       </group> <!-- Functional -->
       <group name="Integration">
-        <method signature="LoginTest.inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionCredCorrectos" class="com.magento.tests.LoginTest"/>
-        <method signature="RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="doRegisterNewAccountNotmail" class="com.magento.tests.RegisterTest"/>
-        <method signature="OrderTest.ModCantProductosdelCarrito(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.OrderTest@1ff3a778]" name="ModCantProductosdelCarrito" class="com.magento.tests.OrderTest"/>
-        <method signature="RegisterTest.validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionclaveiguales" class="com.magento.tests.RegisterTest"/>
-        <method signature="RegisterTest.validacionCorreoDuplicado(java.lang.reflect.Method)[pri:6, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionCorreoDuplicado" class="com.magento.tests.RegisterTest"/>
+        <method signature="LoginTest.inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionCredCorrectos" class="com.magento.tests.LoginTest"/>
       </group> <!-- Integration -->
       <group name="INtegration">
-        <method signature="LoginTest.inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionResetearClave" class="com.magento.tests.LoginTest"/>
+        <method signature="LoginTest.inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionResetearClave" class="com.magento.tests.LoginTest"/>
       </group> <!-- INtegration -->
       <group name="Regression">
-        <method signature="LoginTest.inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionCredCorrectos" class="com.magento.tests.LoginTest"/>
-        <method signature="OrderTest.agregarProductosalCarrito(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.OrderTest@1ff3a778]" name="agregarProductosalCarrito" class="com.magento.tests.OrderTest"/>
-        <method signature="OrderTest.EliminarProductosdelCarrito(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.OrderTest@1ff3a778]" name="EliminarProductosdelCarrito" class="com.magento.tests.OrderTest"/>
-        <method signature="RegisterTest.validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionCorreo" class="com.magento.tests.RegisterTest"/>
-        <method signature="LoginTest.inicioSesionEmailNoRegistrado(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.LoginTest@3d14279f]" name="inicioSesionEmailNoRegistrado" class="com.magento.tests.LoginTest"/>
-        <method signature="OrderTest.checkout(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.OrderTest@1ff3a778]" name="checkout" class="com.magento.tests.OrderTest"/>
-        <method signature="RegisterTest.validacionclaveSegura(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.RegisterTest@3dcfb9e4]" name="validacionclaveSegura" class="com.magento.tests.RegisterTest"/>
+        <method signature="LoginTest.inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionCredCorrectos" class="com.magento.tests.LoginTest"/>
+        <method signature="LoginTest.inicioSesionEmailNoRegistrado(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.LoginTest@349c1daf]" name="inicioSesionEmailNoRegistrado" class="com.magento.tests.LoginTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-10-10T02:07:55 PET" name="Test" finished-at="2024-10-10T02:14:25 PET" duration-ms="390419">
-      <class name="com.magento.tests.OrderTest">
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:10:35 PET" name="setud" finished-at="2024-10-10T02:10:43 PET" duration-ms="8652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="agregarProductosalCarrito(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:10:43 PET" name="agregarProductosalCarrito" finished-at="2024-10-10T02:11:21 PET" duration-ms="37824" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.OrderTest.agregarProductosalCarrito(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- agregarProductosalCarrito -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:21 PET" name="teardown" finished-at="2024-10-10T02:11:21 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:21 PET" name="setud" finished-at="2024-10-10T02:11:25 PET" duration-ms="4317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="EliminarProductosdelCarrito(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:25 PET" name="EliminarProductosdelCarrito" finished-at="2024-10-10T02:11:29 PET" duration-ms="3667" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.OrderTest.EliminarProductosdelCarrito(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button type="submit" class="action login primary" name="send" id="send2">...</button> is not clickable at point (93, 586). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20241007/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-7399332034053978&amp;fa=8&amp;ifi=2&amp;uci=a!2" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CK7p06Ghg4kDFehK3QIdatsNqw" data-load-complete="true"></iframe>
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eeee392c313c4453dabacddfbfd8dd38, clickElement {id=f.52788A796EF0D94C2633C0F38AE19C6D.d.749E57C0BB9F88F4BFB2CB9A1F8858CA.e.69}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63926/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (eeee392c313c4453dabacddfbfd8dd38)] -> id: send2]
-Session ID: eeee392c313c4453dabacddfbfd8dd38]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" class="action login primary" name="send" id="send2">...</button> is not clickable at point (93, 586). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/html/r20241007/r20190131/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-7399332034053978&amp;fa=8&amp;ifi=2&amp;uci=a!2" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CK7p06Ghg4kDFehK3QIdatsNqw" data-load-complete="true"></iframe>
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eeee392c313c4453dabacddfbfd8dd38, clickElement {id=f.52788A796EF0D94C2633C0F38AE19C6D.d.749E57C0BB9F88F4BFB2CB9A1F8858CA.e.69}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63926}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63926/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (eeee392c313c4453dabacddfbfd8dd38)] -> id: send2]
-Session ID: eeee392c313c4453dabacddfbfd8dd38
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.magento.pages.BasePage.click(BasePage.java:33)
-at com.magento.pages.LoginPage.btnIniciarSesion(LoginPage.java:35)
-at com.magento.tests.OrderTest.EliminarProductosdelCarrito(OrderTest.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EliminarProductosdelCarrito -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:29 PET" name="teardown" finished-at="2024-10-10T02:11:29 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:29 PET" name="setud" finished-at="2024-10-10T02:11:34 PET" duration-ms="5316" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="ModCantProductosdelCarrito(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:11:34 PET" name="ModCantProductosdelCarrito" finished-at="2024-10-10T02:12:42 PET" duration-ms="67662" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.OrderTest.ModCantProductosdelCarrito(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ModCantProductosdelCarrito -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:12:42 PET" name="teardown" finished-at="2024-10-10T02:12:42 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:12:42 PET" name="setud" finished-at="2024-10-10T02:12:46 PET" duration-ms="3760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="checkout(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:12:46 PET" name="checkout" finished-at="2024-10-10T02:14:25 PET" duration-ms="99564" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.OrderTest.checkout(java.lang.reflect.Method) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9badc907f56971c8c569e8e00a19e66d, sendKeysToElement {value=[Ljava.lang.CharSequence;@12ced9f1, id=f.C7E31090B2F118F9DA6C545ABC42C57F.d.253B2880A74A0DCA1B5E651C044E3B8E.e.813}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64077/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9badc907f56971c8c569e8e00a19e66d)] -> name: company]
-Session ID: 9badc907f56971c8c569e8e00a19e66d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.24.0', revision: '748ffc9bc3'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9badc907f56971c8c569e8e00a19e66d, sendKeysToElement {value=[Ljava.lang.CharSequence;@12ced9f1, id=f.C7E31090B2F118F9DA6C545ABC42C57F.d.253B2880A74A0DCA1B5E651C044E3B8E.e.813}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64077/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9badc907f56971c8c569e8e00a19e66d)] -> name: company]
-Session ID: 9badc907f56971c8c569e8e00a19e66d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at com.magento.pages.BasePage.type(BasePage.java:41)
-at com.magento.pages.CheckoutPage.fillshippingAddres(CheckoutPage.java:34)
-at com.magento.tests.OrderTest.checkout(OrderTest.java:100)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkout -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.OrderTest@1ff3a778]" started-at="2024-10-10T02:14:25 PET" name="teardown" finished-at="2024-10-10T02:14:25 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.magento.tests.OrderTest -->
-      <class name="com.magento.tests.RegisterTest">
-        <test-method is-config="true" signature="loadSettings()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:07:55 PET" name="loadSettings" finished-at="2024-10-10T02:07:55 PET" duration-ms="13" status="PASS">
+    <test started-at="2024-10-10T21:48:32 PET" name="Test" finished-at="2024-10-10T21:50:04 PET" duration-ms="92326">
+      <class name="com.magento.tests.LoginTest">
+        <test-method is-config="true" signature="loadSettings()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:32 PET" name="loadSettings" finished-at="2024-10-10T21:48:32 PET" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadSettings -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:07:55 PET" name="setud" finished-at="2024-10-10T02:08:00 PET" duration-ms="4813" status="PASS">
+        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:32 PET" name="setud" finished-at="2024-10-10T21:48:37 PET" duration-ms="5059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setud -->
-        <test-method signature="doRegisterNewAccountRequiredFields(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:00 PET" name="doRegisterNewAccountRequiredFields" finished-at="2024-10-10T02:08:07 PET" duration-ms="7347" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.doRegisterNewAccountRequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doRegisterNewAccountRequiredFields -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:07 PET" name="teardown" finished-at="2024-10-10T02:08:07 PET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:07 PET" name="setud" finished-at="2024-10-10T02:08:18 PET" duration-ms="10657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="doRegisterNewAccountNotmail(java.lang.reflect.Method)[pri:2, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:18 PET" name="doRegisterNewAccountNotmail" finished-at="2024-10-10T02:08:23 PET" duration-ms="5205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.doRegisterNewAccountNotmail(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doRegisterNewAccountNotmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:23 PET" name="teardown" finished-at="2024-10-10T02:08:23 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:23 PET" name="setud" finished-at="2024-10-10T02:08:31 PET" duration-ms="7751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="validacionCorreo(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:31 PET" name="validacionCorreo" finished-at="2024-10-10T02:08:39 PET" duration-ms="7715" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.validacionCorreo(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validacionCorreo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:39 PET" name="teardown" finished-at="2024-10-10T02:08:39 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:39 PET" name="setud" finished-at="2024-10-10T02:08:44 PET" duration-ms="5850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="validacionclaveSegura(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:44 PET" name="validacionclaveSegura" finished-at="2024-10-10T02:08:49 PET" duration-ms="4969" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.validacionclaveSegura(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validacionclaveSegura -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:49 PET" name="teardown" finished-at="2024-10-10T02:08:49 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:49 PET" name="setud" finished-at="2024-10-10T02:08:54 PET" duration-ms="4639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="validacionclaveiguales(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:54 PET" name="validacionclaveiguales" finished-at="2024-10-10T02:08:59 PET" duration-ms="4639" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.validacionclaveiguales(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validacionclaveiguales -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:59 PET" name="teardown" finished-at="2024-10-10T02:08:59 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:08:59 PET" name="setud" finished-at="2024-10-10T02:09:08 PET" duration-ms="9256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="validacionCorreoDuplicado(java.lang.reflect.Method)[pri:6, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:09:08 PET" name="validacionCorreoDuplicado" finished-at="2024-10-10T02:09:14 PET" duration-ms="6228" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.magento.tests.RegisterTest.validacionCorreoDuplicado(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validacionCorreoDuplicado -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.RegisterTest@3dcfb9e4]" started-at="2024-10-10T02:09:14 PET" name="teardown" finished-at="2024-10-10T02:09:14 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.magento.tests.RegisterTest -->
-      <class name="com.magento.tests.LoginTest">
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:14 PET" name="setud" finished-at="2024-10-10T02:09:23 PET" duration-ms="9381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:23 PET" name="inicioSesionCredCorrectos" finished-at="2024-10-10T02:09:30 PET" duration-ms="6240" status="PASS">
+        <test-method signature="inicioSesionCredCorrectos(java.lang.reflect.Method)[pri:1, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:37 PET" name="inicioSesionCredCorrectos" finished-at="2024-10-10T21:48:43 PET" duration-ms="6151" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,15 +41,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioSesionCredCorrectos -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:30 PET" name="teardown" finished-at="2024-10-10T02:09:30 PET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:43 PET" name="teardown" finished-at="2024-10-10T21:48:43 PET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:30 PET" name="setud" finished-at="2024-10-10T02:09:42 PET" duration-ms="12166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:42 PET" name="inicioSesionCredInCorrectos" data-provider="dp-invalid-pass" finished-at="2024-10-10T02:09:47 PET" duration-ms="5060" status="PASS">
+        <test-method retried="true" signature="inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:43 PET" name="inicioSesionCredInCorrectos" data-provider="dp-invalid-pass" finished-at="2024-10-10T21:48:53 PET" duration-ms="10023" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -407,18 +63,177 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionCredInCorrectos(LoginTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioSesionCredInCorrectos -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:47 PET" name="teardown" finished-at="2024-10-10T02:09:47 PET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:53 PET" name="teardown" finished-at="2024-10-10T21:48:53 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:47 PET" name="setud" finished-at="2024-10-10T02:09:56 PET" duration-ms="8717" status="PASS">
+        <test-method signature="inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String)[pri:2, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:48:53 PET" name="inicioSesionCredInCorrectos" data-provider="dp-invalid-pass" finished-at="2024-10-10T21:49:03 PET" duration-ms="10033" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.LoginTest.inicioSesionCredInCorrectos(java.lang.reflect.Method,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pedroroja@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ASD712*14]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionCredInCorrectos(LoginTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="inicioSesionSinCredenciales(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:09:56 PET" name="inicioSesionSinCredenciales" finished-at="2024-10-10T02:10:00 PET" duration-ms="3987" status="PASS">
+        </test-method> <!-- inicioSesionCredInCorrectos -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:04 PET" name="teardown" finished-at="2024-10-10T21:49:04 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method retried="true" signature="inicioSesionSinCredenciales(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:04 PET" name="inicioSesionSinCredenciales" finished-at="2024-10-10T21:49:14 PET" duration-ms="10054" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -426,18 +241,167 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionSinCredenciales(LoginTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioSesionSinCredenciales -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:00 PET" name="teardown" finished-at="2024-10-10T02:10:00 PET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:14 PET" name="teardown" finished-at="2024-10-10T21:49:14 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:00 PET" name="setud" finished-at="2024-10-10T02:10:11 PET" duration-ms="10826" status="PASS">
+        <test-method signature="inicioSesionSinCredenciales(java.lang.reflect.Method)[pri:3, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:14 PET" name="inicioSesionSinCredenciales" finished-at="2024-10-10T21:49:24 PET" duration-ms="10010" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.LoginTest.inicioSesionSinCredenciales(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionSinCredenciales(LoginTest.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="inicioSesionEmailNoRegistrado(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:11 PET" name="inicioSesionEmailNoRegistrado" finished-at="2024-10-10T02:10:16 PET" duration-ms="5604" status="PASS">
+        </test-method> <!-- inicioSesionSinCredenciales -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:24 PET" name="teardown" finished-at="2024-10-10T21:49:24 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method retried="true" signature="inicioSesionEmailNoRegistrado(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:24 PET" name="inicioSesionEmailNoRegistrado" finished-at="2024-10-10T21:49:34 PET" duration-ms="10031" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -445,18 +409,167 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionEmailNoRegistrado(LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioSesionEmailNoRegistrado -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:16 PET" name="teardown" finished-at="2024-10-10T02:10:16 PET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:34 PET" name="teardown" finished-at="2024-10-10T21:49:34 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setud()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:16 PET" name="setud" finished-at="2024-10-10T02:10:27 PET" duration-ms="10503" status="PASS">
+        <test-method signature="inicioSesionEmailNoRegistrado(java.lang.reflect.Method)[pri:4, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:34 PET" name="inicioSesionEmailNoRegistrado" finished-at="2024-10-10T21:49:44 PET" duration-ms="10090" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.LoginTest.inicioSesionEmailNoRegistrado(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionEmailNoRegistrado(LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setud -->
-        <test-method signature="inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:27 PET" name="inicioSesionResetearClave" finished-at="2024-10-10T02:10:35 PET" duration-ms="7897" status="PASS">
+        </test-method> <!-- inicioSesionEmailNoRegistrado -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:44 PET" name="teardown" finished-at="2024-10-10T21:49:44 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method retried="true" signature="inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:44 PET" name="inicioSesionResetearClave" finished-at="2024-10-10T21:49:54 PET" duration-ms="10052" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -464,10 +577,163 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionResetearClave(LoginTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicioSesionResetearClave -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@3d14279f]" started-at="2024-10-10T02:10:35 PET" name="teardown" finished-at="2024-10-10T02:10:35 PET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:54 PET" name="teardown" finished-at="2024-10-10T21:49:54 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="inicioSesionResetearClave(java.lang.reflect.Method)[pri:5, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:49:54 PET" name="inicioSesionResetearClave" finished-at="2024-10-10T21:50:04 PET" duration-ms="10091" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.magento.tests.LoginTest.inicioSesionResetearClave(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign In"}
+  (Session info: chrome=129.0.6668.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa08c8d6364d6e93c98da0925bacdd52, findElement {using=link text, value=Sign In}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.100, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49489}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49489/devtoo..., se:cdpVersion: 129.0.6668.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fa08c8d6364d6e93c98da0925bacdd52
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.magento.pages.BasePage.find(BasePage.java:29)
+at com.magento.pages.BasePage.click(BasePage.java:33)
+at com.magento.pages.HomePage.SelectedSingIn(HomePage.java:24)
+at com.magento.tests.LoginTest.inicioSesionResetearClave(LoginTest.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioSesionResetearClave -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.magento.tests.LoginTest@349c1daf]" started-at="2024-10-10T21:50:04 PET" name="teardown" finished-at="2024-10-10T21:50:04 PET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -37,7 +37,7 @@ public class BaseTest {
 		Log.info("Loading Base url fo all testing");
 	}
 	
-	@BeforeMethod
+	@BeforeTest
 	public void setud() {
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Variables.TIME_OUT));

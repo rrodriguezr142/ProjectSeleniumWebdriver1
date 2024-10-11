@@ -7,9 +7,11 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.magento.pages.LoginPage;
+@Listeners(com.magento.listeners.CustomListener.class)
 
 public class LoginTest extends BaseTest {
 	
@@ -19,6 +21,7 @@ public class LoginTest extends BaseTest {
 		homePage.SelectedSingIn();
 		loginPage.iniciarSesion("pedroroja@gmail.com", "ASD712*142+");
 		loginPage.btnIniciarSesion();
+		
 		Thread.sleep(1000);
 		Assert.assertTrue(loginPage.isDisplayed(loginPage.logo));
 		System.out.println("Inicio de sesión correcto.");

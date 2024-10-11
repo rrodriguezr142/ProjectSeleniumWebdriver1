@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.magento.listeners.CustomListener"/>
+    <listener class-name="com.magento.listeners.AnnotationTransformer"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.magento.tests.OrderTest">
+      <class name="com.magento.tests.LoginTest">
         <methods>
           <include name="teardown"/>
-          <include name="EliminarProductosdelCarrito" invocation-numbers="0"/>
+          <include name="inicioSesionSinCredenciales" invocation-numbers="0"/>
+          <include name="inicioSesionEmailNoRegistrado" invocation-numbers="0"/>
           <include name="setud"/>
-          <include name="checkout" invocation-numbers="0"/>
+          <include name="inicioSesionCredInCorrectos" invocation-numbers="0"/>
           <include name="loadSettings"/>
+          <include name="inicioSesionResetearClave" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.magento.tests.OrderTest -->
+      </class> <!-- com.magento.tests.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
