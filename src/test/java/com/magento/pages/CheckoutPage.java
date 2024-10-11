@@ -47,6 +47,7 @@ public class CheckoutPage extends BasePage {
 	}
 	
 	public void goToBtnNext() {
+		goOutofIframe();
 		click(btnNext);
 	}
 	
