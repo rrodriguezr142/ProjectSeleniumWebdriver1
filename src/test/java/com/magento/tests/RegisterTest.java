@@ -1,5 +1,6 @@
 package com.magento.tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.lang.reflect.Method;
@@ -12,7 +13,7 @@ import com.github.javafaker.Faker;
 import com.magento.logs.Log;
 
 import static com.magento.extentreports.ExtentTestManager.startTest;
-
+@Listeners(com.magento.listeners.CustomListener.class)
 public class RegisterTest extends BaseTest{
 
 	Faker faker= new Faker(new Locale("en-US"));

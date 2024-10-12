@@ -5,8 +5,9 @@ import static com.magento.extentreports.ExtentTestManager.startTest;
 import java.lang.reflect.Method;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(com.magento.listeners.CustomListener.class)
 public class OrderTest extends BaseTest {
 	
 	@Test (priority=1, groups="Regression")
