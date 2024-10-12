@@ -14,6 +14,8 @@ public class RegisterPage extends BasePage {
 	protected By ButtonCReateanAccount=By.xpath("//div[@class='primary']/button");
 	public By AccountTitle = By.className("base");
 	public String expected_Title="My Account";
+	protected By BtnChange=By.xpath("//ul[@class='header links']/li/span/button");
+	protected By Signout=By.xpath("//li[@class='authorization-link']/a");
 	
 	//Variables-datos obligatorios
 	public By AccountTitle2=By.id("email_address-error");
@@ -106,6 +108,11 @@ public class RegisterPage extends BasePage {
 	
 	public String getExpectedTitle2() {
 		return text(AccountTitle2);
+	}
+	
+	public void SingOut() {
+		click(BtnChange);
+		click(Signout);
 	}
 	
 	public String getExpectedmsgEmail() {

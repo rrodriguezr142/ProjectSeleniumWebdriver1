@@ -36,6 +36,7 @@ public class RegisterTest extends BaseTest{
 		
 		AssertJUnit.assertEquals(registerPage.getExpectedTitle(), registerPage.expected_Title);
 		System.out.println("The account has been created whit Email: " + email + " and Password: " + password );
+		registerPage.SingOut();
 	}
 
 	@Test (groups= {"Functional","Integration"},priority=2)

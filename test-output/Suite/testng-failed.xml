@@ -7,17 +7,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.magento.tests.LoginTest">
+      <class name="com.magento.tests.OrderTest">
         <methods>
           <include name="teardown"/>
-          <include name="inicioSesionSinCredenciales" invocation-numbers="0"/>
-          <include name="inicioSesionEmailNoRegistrado" invocation-numbers="0"/>
+          <include name="ModCantProductosdelCarrito" invocation-numbers="0"/>
+          <include name="EliminarProductosdelCarrito" invocation-numbers="0"/>
           <include name="setud"/>
-          <include name="inicioSesionCredInCorrectos" invocation-numbers="0"/>
+          <include name="checkout" invocation-numbers="0"/>
           <include name="loadSettings"/>
-          <include name="inicioSesionResetearClave" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.magento.tests.LoginTest -->
+      </class> <!-- com.magento.tests.OrderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -6,6 +6,8 @@
       <class name="com.magento.tests.OrderTest">
         <methods>
           <include name="teardown"/>
+          <include name="ModCantProductosdelCarrito" invocation-numbers="0"/>
+          <include name="EliminarProductosdelCarrito" invocation-numbers="0"/>
           <include name="setud"/>
           <include name="checkout" invocation-numbers="0"/>
           <include name="loadSettings"/>

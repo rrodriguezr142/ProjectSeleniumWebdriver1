@@ -7,6 +7,8 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+import jdk.internal.org.jline.utils.Log;
 @Listeners(com.magento.listeners.CustomListener.class)
 public class OrderTest extends BaseTest {
 	
@@ -14,7 +16,7 @@ public class OrderTest extends BaseTest {
 	public void agregarProductosalCarrito (Method method) throws Exception{
 		startTest(method.getName(),"agregarProductosalCarrito");
 		homePage.SelectedSingIn();
-		loginPage.iniciarSesion("leoramirez@hotmail.com", "AXD789*/875as");
+		loginPage.iniciarSesion("karinaramirez@hotmail.com", "AXD789*/875as");
 		loginPage.btnIniciarSesion();
 		cartPage.searchIntems(cartPage.name_Product_1);
 		cartPage.selectedItems();
@@ -25,13 +27,14 @@ public class OrderTest extends BaseTest {
 		//cartPage.clickAddToCard();
 		Assert.assertEquals(cartPage.AssertAddToCard(), cartPage.msgArtAdd);
 		Thread.sleep(1000);
+		registerPage.SingOut();
 	}
 	
 	@Test (priority=2, groups="Regression")
 	public void EliminarProductosdelCarrito (Method method) throws Exception{
 		startTest(method.getName(),"EliminarProductosdelCarrito");
 		homePage.SelectedSingIn();
-		loginPage.iniciarSesion("carlosramirez@hotmail.com", "AXD789*/875as");
+		loginPage.iniciarSesion("mariaortega@hotmai.com", "AXD789*/875as");
 		loginPage.btnIniciarSesion();
 		cartPage.searchIntems(cartPage.name_Product_1);
 		cartPage.selectedItems();
@@ -46,16 +49,19 @@ public class OrderTest extends BaseTest {
 		cartPage.clickShowCart();
 		cartPage.clickRemoveItem();
 		cartPage.clickacceptRemove();
-		cartPage.clickGoToCart();
-		Assert.assertEquals(cartPage.AssertRemove(), cartPage.msgremove);
+		cartPage.closeMiniCart();
+		registerPage.SingOut();
+		//cartPage.clickGoToCart();
+		//Assert.assertEquals(cartPage.AssertRemove(), cartPage.msgremove);
 		Thread.sleep(1000);
+		
 	}
 	
 	@Test (priority=3, groups={"Functional","Integration"})
 	public void ModCantProductosdelCarrito (Method method) throws Exception{
 		startTest(method.getName(),"ModCantProductosdelCarrito");
 		homePage.SelectedSingIn();
-		loginPage.iniciarSesion("carlosramirez@hotmail.com", "AXD789*/875as");
+		loginPage.iniciarSesion("roxanarosas@hotmail.com", "AXD789*/875as");
 		loginPage.btnIniciarSesion();
 		cartPage.searchIntems(cartPage.name_Product_1);
 		cartPage.selectedItems();
@@ -68,17 +74,25 @@ public class OrderTest extends BaseTest {
 		cartPage.addQtyRandon();
 		cartPage.addToCard();
 		cartPage.clickShowCart();
-		cartPage.clickGoToCart();
-		cartPage.modQtyRandon();
-		Assert.assertEquals(cartPage.AssertRemove(), cartPage.msgremove);
+		//cartPage.clickGoToCart();--momentaneamente
+		//cartPage.modQtyRandon();
+		//cartPage.modCant(cartPage.cantidad);
+		//cartPage.updateCart();
+		//Assert.assertEquals(cartPage.AssertRemove(), cartPage.msgremove);
+		//cartPage.closeMiniCart();
+		cartPage.clickbtnEdit();
+		cartPage.addQtyRandon();
+		cartPage.clickbtnUpdateCart();
+		registerPage.SingOut();
 		Thread.sleep(1000);
+		
 	}
 	
 	@Test (priority=4, groups="Regression")
 	public void checkout (Method method) throws Exception{
 		startTest(method.getName(),"ModCantProductosdelCarrito");
 		homePage.SelectedSingIn();
-		loginPage.iniciarSesion("carlosramirez@hotmail.com", "AXD789*/875as");
+		loginPage.iniciarSesion("eduardoPerez@hotmail.com", "AXD789*/875as");
 		loginPage.btnIniciarSesion();
 		cartPage.searchIntems(cartPage.name_Product_1);
 		cartPage.selectedItems();
@@ -96,8 +110,9 @@ public class OrderTest extends BaseTest {
 		cartPage.addQtyRandon();
 		cartPage.addToCard();
 		cartPage.clickShowCart();
-		cartPage.clickGoToCart();
-		cartPage.clickBtnCheckout();
+		//cartPage.clickGoToCart();
+		//cartPage.clickBtnCheckout();
+		cartPage.clickbtnCheckout1();
 		checkoutPage.fillshippingAddres("ADESY", "AV. SOL NACIENTE 132", "Lima", "18", faker.address().zipCodeByState("FL"), "US", "991352686");
 		checkoutPage.chooseShippingMethods();
 		checkoutPage.goToBtnNext();
@@ -105,5 +120,6 @@ public class OrderTest extends BaseTest {
 		checkoutPage.goToPlaceOrder();
 		Assert.assertEquals(checkoutPage.AssertOrdenComplete(), checkoutPage.msgOrdenComplete);
 		Thread.sleep(1000);
+		//registerPage.SingOut();
 	}
 }

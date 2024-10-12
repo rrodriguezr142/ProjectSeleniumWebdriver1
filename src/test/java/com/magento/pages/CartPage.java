@@ -33,22 +33,31 @@ public class CartPage extends BasePage{
 	//modificar cantidad
 	protected By cant=By.xpath("//div[@class='control qty']/label/input");
 	
-	protected By goToCart=By.xpath("//a[@class='action viewcart']");
+	protected By goToCart=By.xpath("//a[@class='action viewcart']/span");
 	
 	protected By addToCardbtn = By.id("product-addtocart-button");//By.xpath("//div[@class='actions']/button");
 	protected By clickToCardbtn = By.id("product-addtocart-button");//By.xpath("//div[@class='actions']/button");
 	protected By btncheckout=By.xpath("//div[@class='cart-summary']/ul/li/button");
+	protected By btncheckout1=By.id("top-cart-btn-checkout");
 	
 	public String name_Product_1 = "Proteus Fitness Jackshirt";
     public String name_Product_2 = "Erikssen CoolTech™ Fitness Tank";
     public String name_Product_3 = "Aero Daily Fitness Tee";
     protected int qtyRandom;
+    public String cantidad="3";
     
     protected By artAdd=By.xpath("//div/a[contains(text(),'shopping cart')]");
     public String msgArtAdd="shopping cart";
     
-    protected By remove= By.xpath("//div[@class='page-title-wrapper']/h1/span");
-    public String msgremove="Shopping Cart";
+    protected By remove= By.xpath("//a[@class='action viewcart']/span[text()='View and Edit Cart']");
+    public String msgremove="View and Edit Cart";
+    
+    protected By close=By.xpath("//div[@class='block-content']/button");
+    protected By ModCant=By.xpath("//input[@class='input-text qty']");
+    protected By updateShopCart=By.name("update_cart_action");
+    
+    protected By btnEdit =By.xpath("//div[@class='primary']/a");
+    protected By btnUpdateCart= By.id("product-updatecart-button");
 
 	public CartPage(WebDriver driver) {
 		super(driver);
@@ -126,11 +135,35 @@ public class CartPage extends BasePage{
 	public void modQtyRandon() {
 		Random rn=new Random();
 		qtyRandom=rn.nextInt(5)+1;
-		find(cant).clear();
-		type(cant,Integer.toString(qtyRandom));
+		find(ModCant).clear();
+		type(ModCant,Integer.toString(qtyRandom));
 	}
 	
 	public void clickBtnCheckout() {
 		click(btncheckout);
+	}
+	
+	public void clickbtnCheckout1() {
+		click(btncheckout1);
+	}
+	public void closeMiniCart() {
+		click(close);
+	}
+	
+	public void updateCart() {
+		click(updateShopCart);
+	}
+	
+	public void modCant(String cant) {
+		find(ModCant).clear();
+		typeAndEnter(ModCant,cant);
+	}
+	
+	public void clickbtnEdit() {
+		click(btnEdit);
+	}
+	
+	public void clickbtnUpdateCart() {
+		click(btnUpdateCart);
 	}
 }

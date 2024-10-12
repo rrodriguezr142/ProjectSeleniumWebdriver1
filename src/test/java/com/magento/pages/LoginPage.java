@@ -13,6 +13,9 @@ public class LoginPage extends BasePage{
 	public By EspeClaveIncorrecta= By.partialLinkText("Please wait and try again later.");//"//div[contains(text(),'The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.')]");
 	public String msgClaveIncorrecta="The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.";
 	
+	protected By BtnChange=By.xpath("//ul[@class='header links']/li/span/button");
+	protected By Signout=By.xpath("//li[@class='authorization-link']/a");
+	
 	//Varible: sin datos
 	public By sinCredenciales=By.xpath("//div[contains(text(),A login and a password are required.]");
 	public String msgSinCredenciales="A login and a password are required.";
@@ -41,6 +44,11 @@ public class LoginPage extends BasePage{
 	
 	public String getSinCredenciales() {
 		return text(sinCredenciales);
+	}
+	
+	public void SingOutLogin() {
+		click(BtnChange);
+		click(Signout);
 	}
 	
 }

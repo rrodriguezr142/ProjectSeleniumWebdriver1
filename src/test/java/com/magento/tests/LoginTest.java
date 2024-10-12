@@ -11,7 +11,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.magento.pages.LoginPage;
-@Listeners(com.magento.listeners.CustomListener.class)
+//@Listeners(com.magento.listeners.CustomListener.class)
 
 public class LoginTest extends BaseTest {
 	
@@ -25,6 +25,7 @@ public class LoginTest extends BaseTest {
 		Thread.sleep(1000);
 		Assert.assertTrue(loginPage.isDisplayed(loginPage.logo));
 		System.out.println("Inicio de sesión correcto.");
+		loginPage.SingOutLogin();
 		
 	}
 	
