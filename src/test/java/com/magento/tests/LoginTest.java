@@ -74,7 +74,7 @@ public class LoginTest extends BaseTest {
 		System.out.println("Email no registrado.");
 	}
 	
-	@Test(groups= {"Functional","INtegration"},priority=5)
+	@Test(groups= {"Functional","Integration"},priority=5)
 	public void inicioSesionResetearClave (Method method) throws InterruptedException{
 		startTest(method.getName(),"inicioSesionResetearClave");
 		homePage.SelectedSingIn();
