@@ -92,7 +92,7 @@ public class OrderTest extends BaseTest {
 	public void checkout (Method method) throws Exception{
 		startTest(method.getName(),"ModCantProductosdelCarrito");
 		homePage.SelectedSingIn();
-		loginPage.iniciarSesion("eduardoPerez@hotmail.com", "AXD789*/875as");
+		loginPage.iniciarSesion("luiscarrion@hotmail.com", "AXD789*/875as");
 		loginPage.btnIniciarSesion();
 		cartPage.searchIntems(cartPage.name_Product_1);
 		cartPage.selectedItems();
